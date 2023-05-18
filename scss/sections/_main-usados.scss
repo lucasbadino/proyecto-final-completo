@@ -1,0 +1,15 @@
+.main {
+    .main__h4-usados {
+        text-align: center;
+        font-family: $permanent;
+        font-size: xx-large;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .cards-usados {
+        margin: 20px 0;
+    }
+}

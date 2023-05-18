@@ -1,0 +1,71 @@
+.main {
+    .main__carrusel {
+        width: 85%;
+        margin: auto;
+
+        .main__carrusel-general {
+            background-color: rgba(136, 136, 136, 0.277);
+        }
+
+        .main__carrusel-img {
+            img {
+
+                height: 70vh;
+                object-fit: contain;
+
+            }
+        }
+    }
+
+    .main__card-general {
+        max-width: 80vw;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+        .main__card-width {
+            min-width: 20rem;
+
+            a {
+                width: 270px;
+                height: 250px;
+                margin: auto;
+                padding-top: 20px;
+            }
+
+            img {
+                object-fit: contain;
+                overflow: hidden;
+                height: 200px;
+            }
+        }
+
+    }
+
+    .main__titulo {
+        text-align: center;
+        font-family: $lora;
+        margin-top: 25px;
+    }
+
+    .main__opiniones {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        margin: 5rem;
+
+        .card {
+            width: 18rem;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .main .main__carrusel-img img {
+        height: 50vh;
+        object-fit: contain;
+    }
+
+}

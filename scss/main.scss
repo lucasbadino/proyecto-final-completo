@@ -1,0 +1,23 @@
+                        // utilities
+
+// fuentes
+@import "./utilities/typo";
+// reset
+@import "./utilities/reset";
+//mixin and extend
+@import "./utilities/extend-and-mixin";
+
+
+//imports sections
+@import "./sections/header";
+@import "./sections/main";
+@import "./sections/footer";
+@import "./sections/main-contacto";
+@import "./sections/main-financiacion";
+@import "./sections/main-index";
+@import "./sections/main-nuevos";
+@import "./sections/main-postventa";
+@import "./sections/main-usados";
+
+
+

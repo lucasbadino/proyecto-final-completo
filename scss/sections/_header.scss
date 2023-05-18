@@ -1,0 +1,9 @@
+.header {
+    @include alto-vh(9vh);
+
+    .header__logo{
+        height:70px;
+    }
+
+
+}
